@@ -1,0 +1,40 @@
+/* top players style */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns : 1fr 1fr 1fr; */
+
+}
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+/* common styles */
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f1f3;
+}
+main{
+    display: flex;
+}
+.container{
+    background-color: #fff;
+    width: 870px;
+    padding:30px;
+}
+.section-title
+{
+    background-color:#562EFF;
+    font-size: 24px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width:56px;
+    height: 56px;
+
+}
+.player-name{
+    margin-left: 16px ;
+}
